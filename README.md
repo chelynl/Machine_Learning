@@ -12,12 +12,12 @@ For the 2 binary targets, false positives are more costly than false negatives -
 
 
 
-|          Model        |    Accuracy   |    AUC    |    False Positive Rate   |
-| --------------------- | ------------- | --------- | ------------------------ |
-|  Logistic Regression  |     83.23%    |   0.6463  |                          |
-|      Random Forest    |     83.64%    |   0.6226  |                          |
-|  K-Nearest Neighbors  |     --.--%    |   -.----  |                          |
-|        XGBoost        |     --.--%    |   -.----  |                          |
-|        LightGBM       |     --.--%    |   -.----  |                          |
-|        CatBoost       |     --.--%    |   -.----  |                          |
-|           SVM         |     --.--%    |   -.----  |                          |
+|          Model        |    Accuracy   |    AUC    |
+| --------------------- | ------------- | --------- |
+|  Logistic Regression  |     83.23%    |   0.6463  |
+|      Random Forest    |     83.64%    |   0.6226  |
+|  K-Nearest Neighbors  |     80.72%    |   0.6107  |
+|        XGBoost        |     --.--%    |   -.----  |
+|        LightGBM       |     --.--%    |   -.----  |
+|        CatBoost       |     --.--%    |   -.----  |
+|           SVM         |     --.--%    |   -.----  |
