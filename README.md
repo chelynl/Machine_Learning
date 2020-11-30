@@ -18,5 +18,5 @@ For the 2 binary targets, false positives are more costly than false negatives -
 |      Random Forest    |     83.64%    |   0.6226  |
 |        XGBoost        |     84.00%    |   0.5702  |
 |        LightGBM       |     83.02%    |   0.6516  |
-|        CatBoost       |     88.60%    |   0.7779  |
+|        *CatBoost*       |     *88.60%*    |   *0.7779*  |
 |  K-Nearest Neighbors  |     80.72%    |   0.6107  |
