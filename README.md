@@ -10,3 +10,9 @@ We are provided data with 3 targets and 127 attributes (v1-v127). Multiple machi
 
 For the 2 binary targets, false positives are more costly than false negatives - certainty regarding predicted events is paramount and thus the accuracy of the model might best be scored using positive predictive value or lift at depth of 10-20%. Area under the ROC curve and Averaged Squared Error are also sound and common error metrics used in this application.
 
+
+
+|          Model        |    Accuracy   |    AUC    |    False Positive Rate   |
+| --------------------- | ------------- | --------- | ------------------------ |
+|  Logistic Regression  |     83.23%    |   0.6463  |                          |
+|      Random Forest    |     83.64%    |   0.6226  |                          |
