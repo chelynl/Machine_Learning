@@ -10,7 +10,16 @@ We are provided data with 3 targets and 127 attributes (v1-v127). Multiple machi
 
 For the 2 binary targets, false positives are more costly than false negatives - certainty regarding predicted events is paramount and thus the accuracy of the model might best be scored using positive predictive value or lift at depth of 10-20%. Area under the ROC curve and Averaged Squared Error are also sound and common error metrics used in this application.
 
+### Data Preparation
+A preliminary random forest model was first built to find important features out of the 127 attributes and the number of features that composed 95% of feature importance cumulatively were chosen to be in the training data (see charts below). To further optimize the training process, principal component analysis was performed to reduce data dimensions if possible. After evaluating the scree plot, we decided to reduce the data down to the first 10 principal components.
 
+<img src="images/var_importance.png" width=1000>
+<img src="images/cum_var_imp.png" width=1000>
+<img src="images/PCA.png" width=600>
+
+
+
+### Results
 
 |          Model        |    Accuracy   |    AUC    |
 | --------------------- | ------------- | --------- |
