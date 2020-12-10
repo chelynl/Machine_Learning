@@ -17,7 +17,7 @@ A preliminary random forest model was first built to find important features out
 <img src="images/cum_var_imp.png" width=1000>
 <img src="images/PCA.png" width=600>
 
- 
+  
 
 ### Results
 
